@@ -1,11 +1,114 @@
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #1f2937;
-
+*{
+    font-family: Roboto;
 }
-header div{
+.header-section{
+    background-color: #1f2937;
+    margin: -10px;
+    box-sizing: content-box;
+    padding: 20px;
+  
+}
+.header-section header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin: 0;
+}
+.header-section div{
     display: flex;
     gap: 20px;
+    
+}
+.header-section h1{
+    color: white;
+}
+.header-section p{
+    color: white;
+}
+.header-body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-body-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 350px;
+}
+.header-body-text h1{
+    font-size: 48px;
+    color: white;
+    font-weight: 900;
+}
+.header-body-text button{
+    width: 100px;
+    height: 40px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.header-image{
+    width: 500px;
+    height: 250px;
+    background-color: #6c6c75;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-section h1{
+    text-align: center;
+}
+.second-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 20px;
+}
+.second-body-item{
+    width: 150px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.second-body-item div{
+    width: 200px;
+    height: 100px;
+    border: 3px solid #3882f6;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.second-body-item p{
+    text-align: center;
+}
+.third-section{
+    background-color: #e5e7eb;
+    color: rgb(60, 60, 60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 20px;
+    margin: -8px;
+}
+.third-section .one{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+    color: #1f2937;
+    width: 500px;
+}
+.third-section .two{
+    font-size: 24px;
+    font-weight: 500;
+    color: #1f2937;
+    align-items: right;
+
 }
